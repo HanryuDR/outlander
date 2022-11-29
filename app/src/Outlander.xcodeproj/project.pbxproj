@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CF157AA29368A3700E7C759 /* SaveCommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */; };
+		2CF157AB29368A3700E7C759 /* SaveCommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */; };
 		7B10A569275C0CC1000FEDE8 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10A568275C0CC1000FEDE8 /* PluginManager.swift */; };
 		7B10A56A275C0CC1000FEDE8 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10A568275C0CC1000FEDE8 /* PluginManager.swift */; };
 		7B10A59A275C1F26000FEDE8 /* LocalHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10A599275C1F26000FEDE8 /* LocalHost.swift */; };
@@ -316,6 +318,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCommandHandler.swift; sourceTree = "<group>"; };
 		7B10A568275C0CC1000FEDE8 /* PluginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		7B10A599275C1F26000FEDE8 /* LocalHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHost.swift; sourceTree = "<group>"; };
 		7B10A66B275C9C40000FEDE8 /* PluginCommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginCommandHandler.swift; sourceTree = "<group>"; };
@@ -802,6 +805,7 @@
 				7B228B2B273B76B20052610B /* TriggerHandler.swift */,
 				F9CA205A2466322B00A92736 /* VarCommandHandler.swift */,
 				F9CA2048245C9E2300A92736 /* WindowCommandHandler.swift */,
+				2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -1071,6 +1075,7 @@
 				F9BCF32722E2900B00C7F7F0 /* GameServer.swift in Sources */,
 				7B228B29273B09D70052610B /* NSViewExtensions.swift in Sources */,
 				7BCBBD22274750CA00219CA0 /* Exceptions.swift in Sources */,
+				2CF157AA29368A3700E7C759 /* SaveCommandHandler.swift in Sources */,
 				7B3B9A162758BDBE0035D731 /* PresetCommandHandler.swift in Sources */,
 				F6A34F1A247A160800E68EDD /* AliasCommandHandler.swift in Sources */,
 				7B8F887327924B5200713BA7 /* AddProfileWindow.swift in Sources */,
@@ -1149,6 +1154,7 @@
 				F9CA20562466066400A92736 /* EchoCommandHandlerTests.swift in Sources */,
 				F98B490A246F9668000E2D92 /* HighlightLoader.swift in Sources */,
 				F9CA2073246776B800A92736 /* ClassLoaderTests.swift in Sources */,
+				2CF157AB29368A3700E7C759 /* SaveCommandHandler.swift in Sources */,
 				7BBBC519276DA3EB00D1CF3E /* LogBuilder.swift in Sources */,
 				7B228B1E273871720052610B /* Pathfinder.swift in Sources */,
 				F98B4907246F8EFD000E2D92 /* AliasLoader.swift in Sources */,
@@ -1422,7 +1428,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 44;
+				CURRENT_PROJECT_VERSION = 45;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 9TZ225FMST;
@@ -1456,7 +1462,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 44;
+				CURRENT_PROJECT_VERSION = 45;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 9TZ225FMST;
 				ENABLE_HARDENED_RUNTIME = YES;
