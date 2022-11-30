@@ -22,10 +22,9 @@ class SaveCommandHandler: ICommandHandler {
         self.files = files
     }
 
-//    func handle(_: String, with _: GameContext) {
     func handle(_ input: String, with context: GameContext) {
         ApplicationLoader(files).save(context.applicationSettings.paths, context: context)
-                ProfileLoader(files).save(context)
-                context.events2.echoText("settings saved")
+        ProfileLoader(files).save(context)
+        context.events2.echoText("settings saved")
     }
 }

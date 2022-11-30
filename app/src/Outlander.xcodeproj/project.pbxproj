@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1F02302937C8E300DC2193 /* LoadCommandHanlder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F022F2937C8E300DC2193 /* LoadCommandHanlder.swift */; };
+		2C1F02312937C8E300DC2193 /* LoadCommandHanlder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1F022F2937C8E300DC2193 /* LoadCommandHanlder.swift */; };
 		2CF157AA29368A3700E7C759 /* SaveCommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */; };
 		2CF157AB29368A3700E7C759 /* SaveCommandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */; };
 		7B10A569275C0CC1000FEDE8 /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B10A568275C0CC1000FEDE8 /* PluginManager.swift */; };
@@ -318,6 +320,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1F022F2937C8E300DC2193 /* LoadCommandHanlder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCommandHanlder.swift; sourceTree = "<group>"; };
 		2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCommandHandler.swift; sourceTree = "<group>"; };
 		7B10A568275C0CC1000FEDE8 /* PluginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		7B10A599275C1F26000FEDE8 /* LocalHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHost.swift; sourceTree = "<group>"; };
@@ -806,6 +809,7 @@
 				F9CA205A2466322B00A92736 /* VarCommandHandler.swift */,
 				F9CA2048245C9E2300A92736 /* WindowCommandHandler.swift */,
 				2CF157A929368A3700E7C759 /* SaveCommandHandler.swift */,
+				2C1F022F2937C8E300DC2193 /* LoadCommandHanlder.swift */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -1006,6 +1010,7 @@
 				7BDF5C88272736300020A3B0 /* MacroExtensions.swift in Sources */,
 				7BCBBD0F2743ABEA00219CA0 /* VariableTokenizer.swift in Sources */,
 				7BA27B5025DF93C500A88B80 /* Combinators.swift in Sources */,
+				2C1F02302937C8E300DC2193 /* LoadCommandHanlder.swift in Sources */,
 				7B10A672275D7F37000FEDE8 /* OWindow.swift in Sources */,
 				F62EA131247A2846004E2C1E /* GagCommandHandler.swift in Sources */,
 				7B10A66C275C9C40000FEDE8 /* PluginCommandHandler.swift in Sources */,
@@ -1233,6 +1238,7 @@
 				F9B253FA247874BE0097C07F /* ProfileConfigLoaderTests.swift in Sources */,
 				7B3B9A1E275B11390035D731 /* SubsCommandHandler.swift in Sources */,
 				F9BCF32822E2900B00C7F7F0 /* GameServer.swift in Sources */,
+				2C1F02312937C8E300DC2193 /* LoadCommandHanlder.swift in Sources */,
 				F9CA206124664D4100A92736 /* VariablesLoader.swift in Sources */,
 				7B956B4A2754534600346019 /* ScriptToolbarViewController.swift in Sources */,
 				7B3B9A172758BDBE0035D731 /* PresetCommandHandler.swift in Sources */,
