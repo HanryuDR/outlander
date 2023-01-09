@@ -4,4 +4,5 @@ xcuserdata
 .idea
 
 .build
-app/src/Outlander.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+*.resolved
+*.pbxproj
